@@ -1,0 +1,91 @@
+table, th, td {
+    border-collapse: collapse;
+}
+th {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+tr {
+    border: solid rgb(170, 228, 111);
+    border-width: 1px 0;
+}
+tr:first-child {
+    border-top: none;
+    color: rgb(95, 95, 95);
+}
+tr:last-child {
+    border-bottom: none;
+}
+.error {
+    display:none;
+    color: rgb(243, 75, 75);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#user {
+    justify-content: right;
+}
+.insira {
+    font-size: 40px;
+    left: 100px;
+}
+#logout {
+    background-color: rgb(170, 228, 111);
+    color: white;
+    border: 1px solid black
+}
+span {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#background {
+    background-color: rgb(170, 228, 111);
+}
+#content {
+    background-color: white;
+}
+#dados {
+    border: 1px solid rgb(170, 228, 111);
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#pagination {
+    padding: 10px;
+    margin-top: 1px;
+}
+#pagination a:link, #pagination a:visited{
+    text-decoration: none;
+    color:rgb(170, 228, 111);
+    padding: 10px;
+}
+#pagination a:hover {
+    text-decoration: none;
+    color: rgb(170, 250, 111);
+}
+.current {
+    opacity: 0.3;
+}
+.contador {
+    border: 1px solid rgb(170, 228, 111);
+    border-radius: 5px;
+    width: 30%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contador span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
